@@ -10,11 +10,15 @@ We assummed that you have already installed the rbpodo_ros2 from rainbow robotic
 To run the simulation robot arm model in RViz, you need to follows:
 1. In terminal 1, run the following command to install the dependencies:
 ```bash
+source /opt/ros/humble/setup.zsh
+source ~/rbpodo_ros2_ws/install/setup.zsh
 ros2 launch rbpodo_bringup rbpodo.launch.py model:=rb3-730es_u use_rviz:=true use_fake_hardware:=true
 ```
 
 2. In terminal 2, run the following command to control the robot arm:
 ```bash
+source /opt/ros/humble/setup.zsh
+source ~/rbpodo_ros2_ws/install/setup.zsh
 ros2 run rbpodo_controller rbpodo_controller
 ```
 
