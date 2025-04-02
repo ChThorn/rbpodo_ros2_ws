@@ -27,3 +27,20 @@ ros2 run rbpodo_controller rbpodo_controller
 - Once it done the control module, we can extend into the real robot arm model.
 
 The Python code is also used for testing movement of the robot arm model as the first trial.
+
+## To run the Python launch file instead!
+
+- We can run by following the below command as:
+1. First set the Python permission to be usable as below:
+```
+chmod +x path/your_launch_python.py
+```
+2. Second, you can run at the third terminal as:
+```
+ros2 launch rbpodo_kinematics kinematics.launch.py
+```
+Or you can run as one action complete:
+```
+ros2 launch rbpodo_kinematics motion_planner.launch.py
+```
+
