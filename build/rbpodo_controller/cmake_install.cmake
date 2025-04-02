@@ -67,6 +67,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rbpodo_controller" TYPE DIRECTORY FILES "/home/thornch/rbpodo_ros2_ws/src/rbpodo_controller/launch")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/thornch/rbpodo_ros2_ws/build/rbpodo_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rbpodo_controller")
 endif()
 

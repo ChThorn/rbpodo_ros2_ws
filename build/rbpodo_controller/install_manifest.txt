@@ -1,4 +1,5 @@
 /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/lib/rbpodo_controller/rbpodo_controller
+/home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/launch/rbpodo_controller.launch.py
 /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/ament_index/resource_index/package_run_dependencies/rbpodo_controller
 /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/ament_index/resource_index/parent_prefix_path/rbpodo_controller
 /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/environment/ament_prefix_path.sh

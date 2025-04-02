@@ -25,6 +25,37 @@
 # ament_package()
 
 
+# cmake_minimum_required(VERSION 3.10)
+# project(rbpodo_controller)
+
+# # Default to C++17
+# if(NOT CMAKE_CXX_STANDARD)
+#   set(CMAKE_CXX_STANDARD 17)
+# endif()
+
+# # Find dependencies
+# find_package(ament_cmake REQUIRED)
+# find_package(rclcpp REQUIRED)
+# find_package(std_msgs REQUIRED)
+# find_package(sensor_msgs REQUIRED)
+
+# # Create executable - use the correct filename
+# add_executable(rbpodo_controller src/robot_arm_controller.cpp)
+
+# # Use ament_target_dependencies for standard packages
+# ament_target_dependencies(rbpodo_controller
+#   rclcpp
+#   std_msgs
+#   sensor_msgs
+# )
+
+# install(TARGETS
+#   rbpodo_controller
+#   DESTINATION lib/${PROJECT_NAME})
+
+# ament_package()
+
+
 cmake_minimum_required(VERSION 3.10)
 project(rbpodo_controller)
 
@@ -39,7 +70,7 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
-# Create executable - use the correct filename
+# Create executable
 add_executable(rbpodo_controller src/robot_arm_controller.cpp)
 
 # Use ament_target_dependencies for standard packages
@@ -49,8 +80,16 @@ ament_target_dependencies(rbpodo_controller
   sensor_msgs
 )
 
+# Install the executable
 install(TARGETS
   rbpodo_controller
-  DESTINATION lib/${PROJECT_NAME})
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+# Install launch files
+install(DIRECTORY
+  launch
+  DESTINATION share/${PROJECT_NAME}
+)
 
 ament_package()
