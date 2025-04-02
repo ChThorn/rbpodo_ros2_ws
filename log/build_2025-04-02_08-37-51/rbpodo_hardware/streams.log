@@ -1,0 +1,90 @@
+[0.005s] Invoking command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_hardware': AMENT_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_hardware -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware
+[0.008s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.008s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.008s]   CMake.
+[0.008s] 
+[0.008s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.008s]   to tell CMake that the project requires at least <min> but has been updated
+[0.008s]   to work with policies introduced by <max> or earlier.
+[0.008s] 
+[0.008s] [0m
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.122s] -- The CXX compiler identification is GNU 11.4.0
+[0.127s] -- Detecting C compiler ABI info
+[0.177s] -- Detecting C compiler ABI info - done
+[0.197s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.197s] -- Detecting C compile features
+[0.198s] -- Detecting C compile features - done
+[0.204s] -- Detecting CXX compiler ABI info
+[0.265s] -- Detecting CXX compiler ABI info - done
+[0.277s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.277s] -- Detecting CXX compile features
+[0.278s] -- Detecting CXX compile features - done
+[0.284s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.412s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.477s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.489s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.513s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.516s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.520s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.527s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.536s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.564s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.565s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.615s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[0.640s] -- Found FastRTPS: /opt/ros/humble/include
+[0.665s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.670s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.762s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.763s] -- Found Threads: TRUE
+[0.806s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.832s] -- Found hardware_interface: 2.48.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.953s] -- Found rbpodo_msgs: 0.0.0 (/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/share/rbpodo_msgs/cmake)
+[0.970s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.023s] -- Configuring done (1.0s)
+[1.049s] -- Generating done (0.0s)
+[1.051s] -- Build files have been written to: /home/thornch/rbpodo_ros2_ws/build/rbpodo_hardware
+[1.057s] Invoked command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_hardware' returned '0': AMENT_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_hardware -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware
+[1.059s] Invoking command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_hardware': AMENT_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thornch/rbpodo_ros2_ws/build/rbpodo_hardware -- -j24 -l24
+[1.088s] [ 25%] [32mBuilding CXX object CMakeFiles/rbpodo_hardware.dir/src/rbpodo_hardware_interface.cpp.o[0m
+[1.090s] [ 50%] [32mBuilding CXX object CMakeFiles/rbpodo_hardware.dir/src/robot.cpp.o[0m
+[1.091s] [ 75%] [32mBuilding CXX object CMakeFiles/rbpodo_hardware.dir/src/robot_node.cpp.o[0m
+[12.706s] [100%] [32m[1mLinking CXX shared library librbpodo_hardware.so[0m
+[12.866s] [100%] Built target rbpodo_hardware
+[12.871s] Invoked command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_hardware' returned '0': AMENT_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thornch/rbpodo_ros2_ws/build/rbpodo_hardware -- -j24 -l24
+[12.871s] Invoking command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_hardware': AMENT_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thornch/rbpodo_ros2_ws/build/rbpodo_hardware
+[12.873s] -- Install configuration: "Release"
+[12.873s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/rbpodo_hardware/rbpodo_hardware.xml
+[12.873s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/include
+[12.873s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/include/rbpodo_hardware
+[12.873s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/include/rbpodo_hardware/visibility_control.h
+[12.873s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/include/rbpodo_hardware/robot.hpp
+[12.873s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/include/rbpodo_hardware/robot_node.hpp
+[12.873s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/include/rbpodo_hardware/rbpodo_hardware_interface.hpp
+[12.873s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/lib/librbpodo_hardware.so
+[12.874s] -- Set non-toolchain portion of runtime path of "/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/lib/librbpodo_hardware.so" to ""
+[12.874s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/rbpodo_hardware/environment/library_path.sh
+[12.874s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/rbpodo_hardware/environment/library_path.dsv
+[12.874s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/ament_index/resource_index/package_run_dependencies/rbpodo_hardware
+[12.874s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/ament_index/resource_index/parent_prefix_path/rbpodo_hardware
+[12.874s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/rbpodo_hardware/environment/ament_prefix_path.sh
+[12.874s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/rbpodo_hardware/environment/ament_prefix_path.dsv
+[12.875s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/rbpodo_hardware/environment/path.sh
+[12.875s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/rbpodo_hardware/environment/path.dsv
+[12.875s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/rbpodo_hardware/local_setup.bash
+[12.875s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/rbpodo_hardware/local_setup.sh
+[12.875s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/rbpodo_hardware/local_setup.zsh
+[12.875s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/rbpodo_hardware/local_setup.dsv
+[12.875s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/rbpodo_hardware/package.dsv
+[12.875s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/ament_index/resource_index/packages/rbpodo_hardware
+[12.875s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rbpodo_hardware
+[12.875s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/rbpodo_hardware/cmake/export_rbpodo_hardwareExport.cmake
+[12.875s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/rbpodo_hardware/cmake/export_rbpodo_hardwareExport-release.cmake
+[12.875s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/rbpodo_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.875s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/rbpodo_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[12.875s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/rbpodo_hardware/cmake/ament_cmake_export_targets-extras.cmake
+[12.875s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/rbpodo_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.875s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/rbpodo_hardware/cmake/rbpodo_hardwareConfig.cmake
+[12.875s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/rbpodo_hardware/cmake/rbpodo_hardwareConfig-version.cmake
+[12.875s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/share/rbpodo_hardware/package.xml
+[12.876s] Invoked command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_hardware' returned '0': AMENT_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thornch/rbpodo_ros2_ws/build/rbpodo_hardware

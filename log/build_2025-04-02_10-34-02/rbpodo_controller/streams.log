@@ -1,0 +1,51 @@
+[0.006s] Invoking command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/thornch/rbpodo_ros2_ws/build/rbpodo_controller -- -j24 -l24
+[0.034s] [ 50%] [32mBuilding CXX object CMakeFiles/rbpodo_controller.dir/src/robot_arm_controller.cpp.o[0m
+[1.198s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.198s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.198s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.198s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.198s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.198s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.198s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.198s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.198s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.198s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.198s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.198s]                  from [01m[K/home/thornch/rbpodo_ros2_ws/src/rbpodo_controller/src/robot_arm_controller.cpp:68[m[K:
+[1.198s] [01m[K/home/thornch/rbpodo_ros2_ws/src/rbpodo_controller/src/robot_arm_controller.cpp:[m[K In member function ‘[01m[Kvoid RBPodoSequentialController::control_loop()[m[K’:
+[1.198s] [01m[K/home/thornch/rbpodo_ros2_ws/src/rbpodo_controller/src/robot_arm_controller.cpp:125:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.198s]   125 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"Moving to waypoint %d of %zu"[m[K,
+[1.198s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.198s]   126 |                 [32m[Kcurrent_waypoint_ + 1[m[K, waypoints_.size());
+[1.198s]       |                 [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.198s]       |                                   [32m[K|[m[K
+[1.198s]       |                                   [32m[Ksize_t {aka long unsigned int}[m[K
+[1.198s] [01m[K/home/thornch/rbpodo_ros2_ws/src/rbpodo_controller/src/robot_arm_controller.cpp:125:58:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.199s]   125 |     RCLCPP_INFO(this->get_logger(), "Moving to waypoint [01;36m[K%d[m[K of %zu",
+[1.199s]       |                                                         [01;36m[K~^[m[K
+[1.199s]       |                                                          [01;36m[K|[m[K
+[1.199s]       |                                                          [01;36m[Kint[m[K
+[1.199s]       |                                                         [32m[K%ld[m[K
+[5.460s] [100%] [32m[1mLinking CXX executable rbpodo_controller[0m
+[5.539s] [100%] Built target rbpodo_controller
+[5.549s] Invoked command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/thornch/rbpodo_ros2_ws/build/rbpodo_controller -- -j24 -l24
+[5.553s] Invoking command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/thornch/rbpodo_ros2_ws/build/rbpodo_controller
+[5.556s] -- Install configuration: "Release"
+[5.556s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/lib/rbpodo_controller/rbpodo_controller
+[5.557s] -- Set non-toolchain portion of runtime path of "/home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/lib/rbpodo_controller/rbpodo_controller" to ""
+[5.557s] -- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/ament_index/resource_index/package_run_dependencies/rbpodo_controller
+[5.557s] -- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/ament_index/resource_index/parent_prefix_path/rbpodo_controller
+[5.557s] -- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/environment/ament_prefix_path.sh
+[5.557s] -- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/environment/ament_prefix_path.dsv
+[5.557s] -- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/environment/path.sh
+[5.557s] -- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/environment/path.dsv
+[5.557s] -- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/local_setup.bash
+[5.557s] -- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/local_setup.sh
+[5.557s] -- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/local_setup.zsh
+[5.557s] -- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/local_setup.dsv
+[5.557s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/package.dsv
+[5.557s] -- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/ament_index/resource_index/packages/rbpodo_controller
+[5.557s] -- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/cmake/rbpodo_controllerConfig.cmake
+[5.557s] -- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/cmake/rbpodo_controllerConfig-version.cmake
+[5.557s] -- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/package.xml
+[5.558s] Invoked command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/thornch/rbpodo_ros2_ws/build/rbpodo_controller

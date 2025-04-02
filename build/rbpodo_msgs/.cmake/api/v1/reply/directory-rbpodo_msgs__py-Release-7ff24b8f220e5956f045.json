@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rbpodo_msgs__py",
+		"source" : "/home/thornch/rbpodo_ros2_ws/build/rbpodo_msgs/rbpodo_msgs__py"
+	}
+}

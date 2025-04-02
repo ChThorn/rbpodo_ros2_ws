@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-b4b111c18a94863538e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "rbpodo_msgs__py",
+					"jsonFile" : "directory-rbpodo_msgs__py-Release-7ff24b8f220e5956f045.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/thornch/rbpodo_ros2_ws/build/rbpodo_msgs/rbpodo_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rbpodo_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rbpodo_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rbpodo_msgs_egg-Release-36c482201db8a92e6933.json",
+					"name" : "ament_cmake_python_build_rbpodo_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rbpodo_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rbpodo_msgs-Release-f0f7ed028d0f4be7451a.json",
+					"name" : "ament_cmake_python_copy_rbpodo_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rbpodo_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rbpodo_msgs-Release-7587d28e0dcc38337ee6.json",
+					"name" : "rbpodo_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rbpodo_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rbpodo_msgs__cpp-Release-aa04f554129e02e0ac06.json",
+					"name" : "rbpodo_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rbpodo_msgs__py::@0ec49b11feacc04fa951",
+					"jsonFile" : "target-rbpodo_msgs__py-Release-b1a2813943a1b989e1e8.json",
+					"name" : "rbpodo_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rbpodo_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rbpodo_msgs__rosidl_generator_c-Release-7860a9fc8f904d1d771e.json",
+					"name" : "rbpodo_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rbpodo_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rbpodo_msgs__rosidl_generator_py-Release-11299685d8d60e28b3af.json",
+					"name" : "rbpodo_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rbpodo_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rbpodo_msgs__rosidl_typesupport_c-Release-0e77e8efc8e9003ca919.json",
+					"name" : "rbpodo_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rbpodo_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rbpodo_msgs__rosidl_typesupport_c__pyext-Release-09c4b42e53a035ab5984.json",
+					"name" : "rbpodo_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rbpodo_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rbpodo_msgs__rosidl_typesupport_cpp-Release-65392dbb5a1bd3fb93a2.json",
+					"name" : "rbpodo_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rbpodo_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rbpodo_msgs__rosidl_typesupport_fastrtps_c-Release-95919116eafb75fa9fb7.json",
+					"name" : "rbpodo_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rbpodo_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rbpodo_msgs__rosidl_typesupport_fastrtps_c__pyext-Release-c56ecebc7c0cb5679db4.json",
+					"name" : "rbpodo_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rbpodo_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rbpodo_msgs__rosidl_typesupport_fastrtps_cpp-Release-df5d6c9afdffbafbc100.json",
+					"name" : "rbpodo_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rbpodo_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rbpodo_msgs__rosidl_typesupport_introspection_c-Release-00d240cc4cd250b72e35.json",
+					"name" : "rbpodo_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rbpodo_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rbpodo_msgs__rosidl_typesupport_introspection_c__pyext-Release-e4853c0d9d1d52485724.json",
+					"name" : "rbpodo_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rbpodo_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rbpodo_msgs__rosidl_typesupport_introspection_cpp-Release-cdad1d59d830ec1f87e3.json",
+					"name" : "rbpodo_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rbpodo_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rbpodo_msgs_uninstall-Release-906d4a21f324867fd6e2.json",
+					"name" : "rbpodo_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-42fc4c6bb345388e1b06.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/thornch/rbpodo_ros2_ws/build/rbpodo_msgs",
+		"source" : "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.000419] (-) JobUnselected: {'identifier': 'rb3_730es_u_moveit_config'}
+[0.000477] (-) JobUnselected: {'identifier': 'rbpodo_bringup'}
+[0.000495] (-) JobUnselected: {'identifier': 'rbpodo_description'}
+[0.000510] (-) JobUnselected: {'identifier': 'rbpodo_hardware'}
+[0.000525] (-) JobUnselected: {'identifier': 'rbpodo_msgs'}
+[0.000541] (rbpodo_controller) JobQueued: {'identifier': 'rbpodo_controller', 'dependencies': OrderedDict()}
+[0.000558] (rbpodo_controller) JobStarted: {'identifier': 'rbpodo_controller'}
+[0.004483] (rbpodo_controller) JobProgress: {'identifier': 'rbpodo_controller', 'progress': 'cmake'}
+[0.004750] (rbpodo_controller) JobProgress: {'identifier': 'rbpodo_controller', 'progress': 'build'}
+[0.005143] (rbpodo_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thornch/rbpodo_ros2_ws/build/rbpodo_controller', '--', '-j24', '-l24'], 'cwd': '/home/thornch/rbpodo_ros2_ws/build/rbpodo_controller', 'env': OrderedDict([('LANGUAGE', 'en_US:en'), ('USER', 'thornch'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/lib:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thornch'), ('OLDPWD', '/home/thornch/rbpodo_ros2_ws/src'), ('LESS', '-R'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/thornch/.nvm/versions/node/v22.14.0/bin'), ('ZSH', '/home/thornch/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/thornch/.nvm/versions/node/v22.14.0/include/node'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '59973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('NVM_DIR', '/home/thornch/.nvm'), ('COLCON_PREFIX_PATH', '/home/thornch/rbpodo_ros2_ws/install:/home/thornch/rbpodo_ros2_ws/src/rbpodo_controller/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thornch'), ('GTK_IM_MODULE', 'ibus'), ('_P9K_SSH_TTY', '/dev/pts/8'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'thornch'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('_CE_CONDA', ''), ('WINDOWPATH', '2'), ('PATH', '/home/thornch/.npm-global/bin:/home/thornch/.nvm/versions/node/v22.14.0/bin:/home/thornch/miniconda3/condabin:/opt/ros/humble/bin:/home/thornch/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/thornch/.lmstudio/bin:/home/thornch/.lmstudio/bin'), ('SESSION_MANAGER', 'local/thornch-ubuntu:@/tmp/.ICE-unix/2948,unix/thornch-ubuntu:/tmp/.ICE-unix/2948'), ('PAPERSIZE', 'letter'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cf5e1d73_91da_4de9_a6ce_0b3483d38f6d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.170'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/thornch/rbpodo_ros2_ws/install/rbpodo_controller:/home/thornch/rbpodo_ros2_ws/src/rbpodo_controller/install/rbpodo_controller:/home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup:/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/thornch/miniconda3/bin/python'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/thornch/rbpodo_ros2_ws/build/rbpodo_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/8'), ('CONDA_EXE', '/home/thornch/miniconda3/bin/conda'), ('NVM_CD_FLAGS', '-q'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thornch/rbpodo_ros2_ws/install/rbpodo_controller:/home/thornch/rbpodo_ros2_ws/src/rbpodo_controller/install/rbpodo_controller:/home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup:/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/opt/ros/humble')]), 'shell': False}
+[0.037873] (rbpodo_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rbpodo_controller.dir/src/robot_arm_controller.cpp.o\x1b[0m\n'}
+[0.100009] (-) TimerEvent: {}
+[0.200354] (-) TimerEvent: {}
+[0.300719] (-) TimerEvent: {}
+[0.401070] (-) TimerEvent: {}
+[0.501321] (-) TimerEvent: {}
+[0.601542] (-) TimerEvent: {}
+[0.701727] (-) TimerEvent: {}
+[0.801996] (-) TimerEvent: {}
+[0.902167] (-) TimerEvent: {}
+[1.002380] (-) TimerEvent: {}
+[1.102597] (-) TimerEvent: {}
+[1.202833] (-) TimerEvent: {}
+[1.303132] (-) TimerEvent: {}
+[1.403427] (-) TimerEvent: {}
+[1.503704] (-) TimerEvent: {}
+[1.604041] (-) TimerEvent: {}
+[1.704397] (-) TimerEvent: {}
+[1.804757] (-) TimerEvent: {}
+[1.905113] (-) TimerEvent: {}
+[2.005476] (-) TimerEvent: {}
+[2.105859] (-) TimerEvent: {}
+[2.206223] (-) TimerEvent: {}
+[2.306620] (-) TimerEvent: {}
+[2.406868] (-) TimerEvent: {}
+[2.507108] (-) TimerEvent: {}
+[2.607323] (-) TimerEvent: {}
+[2.707558] (-) TimerEvent: {}
+[2.807764] (-) TimerEvent: {}
+[2.907972] (-) TimerEvent: {}
+[3.008208] (-) TimerEvent: {}
+[3.108435] (-) TimerEvent: {}
+[3.208646] (-) TimerEvent: {}
+[3.308839] (-) TimerEvent: {}
+[3.409050] (-) TimerEvent: {}
+[3.509267] (-) TimerEvent: {}
+[3.609549] (-) TimerEvent: {}
+[3.709746] (-) TimerEvent: {}
+[3.809956] (-) TimerEvent: {}
+[3.910149] (-) TimerEvent: {}
+[4.010379] (-) TimerEvent: {}
+[4.110653] (-) TimerEvent: {}
+[4.210929] (-) TimerEvent: {}
+[4.311209] (-) TimerEvent: {}
+[4.411484] (-) TimerEvent: {}
+[4.511759] (-) TimerEvent: {}
+[4.612039] (-) TimerEvent: {}
+[4.712275] (-) TimerEvent: {}
+[4.812557] (-) TimerEvent: {}
+[4.912845] (-) TimerEvent: {}
+[5.013033] (-) TimerEvent: {}
+[5.113304] (-) TimerEvent: {}
+[5.213597] (-) TimerEvent: {}
+[5.313891] (-) TimerEvent: {}
+[5.414186] (-) TimerEvent: {}
+[5.514428] (-) TimerEvent: {}
+[5.580494] (rbpodo_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rbpodo_controller\x1b[0m\n'}
+[5.614540] (-) TimerEvent: {}
+[5.669145] (rbpodo_controller) StdoutLine: {'line': b'[100%] Built target rbpodo_controller\n'}
+[5.679059] (rbpodo_controller) CommandEnded: {'returncode': 0}
+[5.679530] (rbpodo_controller) JobProgress: {'identifier': 'rbpodo_controller', 'progress': 'install'}
+[5.682291] (rbpodo_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thornch/rbpodo_ros2_ws/build/rbpodo_controller'], 'cwd': '/home/thornch/rbpodo_ros2_ws/build/rbpodo_controller', 'env': OrderedDict([('LANGUAGE', 'en_US:en'), ('USER', 'thornch'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/lib:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thornch'), ('OLDPWD', '/home/thornch/rbpodo_ros2_ws/src'), ('LESS', '-R'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/thornch/.nvm/versions/node/v22.14.0/bin'), ('ZSH', '/home/thornch/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/thornch/.nvm/versions/node/v22.14.0/include/node'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '59973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('NVM_DIR', '/home/thornch/.nvm'), ('COLCON_PREFIX_PATH', '/home/thornch/rbpodo_ros2_ws/install:/home/thornch/rbpodo_ros2_ws/src/rbpodo_controller/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thornch'), ('GTK_IM_MODULE', 'ibus'), ('_P9K_SSH_TTY', '/dev/pts/8'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'thornch'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('_CE_CONDA', ''), ('WINDOWPATH', '2'), ('PATH', '/home/thornch/.npm-global/bin:/home/thornch/.nvm/versions/node/v22.14.0/bin:/home/thornch/miniconda3/condabin:/opt/ros/humble/bin:/home/thornch/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/thornch/.lmstudio/bin:/home/thornch/.lmstudio/bin'), ('SESSION_MANAGER', 'local/thornch-ubuntu:@/tmp/.ICE-unix/2948,unix/thornch-ubuntu:/tmp/.ICE-unix/2948'), ('PAPERSIZE', 'letter'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cf5e1d73_91da_4de9_a6ce_0b3483d38f6d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.170'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/thornch/rbpodo_ros2_ws/install/rbpodo_controller:/home/thornch/rbpodo_ros2_ws/src/rbpodo_controller/install/rbpodo_controller:/home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup:/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/thornch/miniconda3/bin/python'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/thornch/rbpodo_ros2_ws/build/rbpodo_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/8'), ('CONDA_EXE', '/home/thornch/miniconda3/bin/conda'), ('NVM_CD_FLAGS', '-q'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thornch/rbpodo_ros2_ws/install/rbpodo_controller:/home/thornch/rbpodo_ros2_ws/src/rbpodo_controller/install/rbpodo_controller:/home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup:/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/opt/ros/humble')]), 'shell': False}
+[5.685267] (rbpodo_controller) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[5.685417] (rbpodo_controller) StdoutLine: {'line': b'-- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/lib/rbpodo_controller/rbpodo_controller\n'}
+[5.686444] (rbpodo_controller) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/lib/rbpodo_controller/rbpodo_controller" to ""\n'}
+[5.686519] (rbpodo_controller) StdoutLine: {'line': b'-- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/ament_index/resource_index/package_run_dependencies/rbpodo_controller\n'}
+[5.686560] (rbpodo_controller) StdoutLine: {'line': b'-- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/ament_index/resource_index/parent_prefix_path/rbpodo_controller\n'}
+[5.686597] (rbpodo_controller) StdoutLine: {'line': b'-- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/environment/ament_prefix_path.sh\n'}
+[5.686661] (rbpodo_controller) StdoutLine: {'line': b'-- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/environment/ament_prefix_path.dsv\n'}
+[5.686691] (rbpodo_controller) StdoutLine: {'line': b'-- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/environment/path.sh\n'}
+[5.686722] (rbpodo_controller) StdoutLine: {'line': b'-- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/environment/path.dsv\n'}
+[5.686772] (rbpodo_controller) StdoutLine: {'line': b'-- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/local_setup.bash\n'}
+[5.686802] (rbpodo_controller) StdoutLine: {'line': b'-- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/local_setup.sh\n'}
+[5.686833] (rbpodo_controller) StdoutLine: {'line': b'-- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/local_setup.zsh\n'}
+[5.686878] (rbpodo_controller) StdoutLine: {'line': b'-- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/local_setup.dsv\n'}
+[5.686909] (rbpodo_controller) StdoutLine: {'line': b'-- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/package.dsv\n'}
+[5.687018] (rbpodo_controller) StdoutLine: {'line': b'-- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/ament_index/resource_index/packages/rbpodo_controller\n'}
+[5.687064] (rbpodo_controller) StdoutLine: {'line': b'-- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/cmake/rbpodo_controllerConfig.cmake\n'}
+[5.687107] (rbpodo_controller) StdoutLine: {'line': b'-- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/cmake/rbpodo_controllerConfig-version.cmake\n'}
+[5.687149] (rbpodo_controller) StdoutLine: {'line': b'-- Up-to-date: /home/thornch/rbpodo_ros2_ws/install/rbpodo_controller/share/rbpodo_controller/package.xml\n'}
+[5.688218] (rbpodo_controller) CommandEnded: {'returncode': 0}
+[5.696274] (rbpodo_controller) JobEnded: {'identifier': 'rbpodo_controller', 'rc': 0}
+[5.696627] (-) EventReactorShutdown: {}

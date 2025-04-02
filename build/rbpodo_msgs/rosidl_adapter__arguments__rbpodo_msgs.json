@@ -1,0 +1,26 @@
+{
+  "package_name": "rbpodo_msgs",
+  "non_idl_tuples": [
+    "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs:action/MoveJ.action",
+    "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs:action/MoveJb2.action",
+    "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs:action/MoveL.action",
+    "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs:action/MovePb.action",
+    "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs:msg/MoveJb2Point.msg",
+    "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs:msg/MovePbPoint.msg",
+    "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs:msg/Response.msg",
+    "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs:msg/SystemState.msg",
+    "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs:srv/Eval.srv",
+    "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs:srv/SetCartesianPoseControllerConfig.srv",
+    "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs:srv/SetCartesianVelocityControllerConfig.srv",
+    "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs:srv/SetJointEffortControllerConfig.srv",
+    "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs:srv/SetJointPositionControllerConfig.srv",
+    "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs:srv/SetJointVelocityControllerConfig.srv",
+    "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs:srv/SetOperationMode.srv",
+    "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs:srv/SetSpeedBar.srv",
+    "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs:srv/TaskLoad.srv",
+    "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs:srv/TaskPause.srv",
+    "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs:srv/TaskPlay.srv",
+    "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs:srv/TaskResume.srv",
+    "/home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_msgs:srv/TaskStop.srv"
+  ]
+}

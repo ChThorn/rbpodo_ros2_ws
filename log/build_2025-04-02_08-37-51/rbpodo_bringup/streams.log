@@ -1,0 +1,53 @@
+[0.012s] Invoking command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_bringup': AMENT_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/lib:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_bringup -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup
+[0.017s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.017s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.017s]   CMake.
+[0.017s] 
+[0.017s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.017s]   to tell CMake that the project requires at least <min> but has been updated
+[0.017s]   to work with policies introduced by <max> or earlier.
+[0.017s] 
+[0.017s] [0m
+[0.076s] -- The C compiler identification is GNU 11.4.0
+[0.134s] -- The CXX compiler identification is GNU 11.4.0
+[0.139s] -- Detecting C compiler ABI info
+[0.224s] -- Detecting C compiler ABI info - done
+[0.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.245s] -- Detecting C compile features
+[0.245s] -- Detecting C compile features - done
+[0.258s] -- Detecting CXX compiler ABI info
+[0.333s] -- Detecting CXX compiler ABI info - done
+[0.342s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.342s] -- Detecting CXX compile features
+[0.342s] -- Detecting CXX compile features - done
+[0.346s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.446s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.498s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.537s] -- Configuring done (0.5s)
+[0.538s] -- Generating done (0.0s)
+[0.539s] -- Build files have been written to: /home/thornch/rbpodo_ros2_ws/build/rbpodo_bringup
+[0.542s] Invoked command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_bringup' returned '0': AMENT_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/lib:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_bringup -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup
+[0.542s] Invoking command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_bringup': AMENT_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/lib:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thornch/rbpodo_ros2_ws/build/rbpodo_bringup -- -j24 -l24
+[0.555s] Invoked command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_bringup' returned '0': AMENT_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/lib:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thornch/rbpodo_ros2_ws/build/rbpodo_bringup -- -j24 -l24
+[0.556s] Invoking command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_bringup': AMENT_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/lib:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thornch/rbpodo_ros2_ws/build/rbpodo_bringup
+[0.558s] -- Install configuration: "Release"
+[0.558s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup/share/rbpodo_bringup/config
+[0.558s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup/share/rbpodo_bringup/config/controllers.yaml
+[0.558s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup/share/rbpodo_bringup/launch
+[0.558s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup/share/rbpodo_bringup/launch/rbpodo.launch.py
+[0.558s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup/share/ament_index/resource_index/package_run_dependencies/rbpodo_bringup
+[0.558s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup/share/ament_index/resource_index/parent_prefix_path/rbpodo_bringup
+[0.558s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup/share/rbpodo_bringup/environment/ament_prefix_path.sh
+[0.558s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup/share/rbpodo_bringup/environment/ament_prefix_path.dsv
+[0.558s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup/share/rbpodo_bringup/environment/path.sh
+[0.558s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup/share/rbpodo_bringup/environment/path.dsv
+[0.558s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup/share/rbpodo_bringup/local_setup.bash
+[0.559s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup/share/rbpodo_bringup/local_setup.sh
+[0.559s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup/share/rbpodo_bringup/local_setup.zsh
+[0.559s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup/share/rbpodo_bringup/local_setup.dsv
+[0.559s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup/share/rbpodo_bringup/package.dsv
+[0.559s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup/share/ament_index/resource_index/packages/rbpodo_bringup
+[0.559s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup/share/rbpodo_bringup/cmake/rbpodo_bringupConfig.cmake
+[0.559s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup/share/rbpodo_bringup/cmake/rbpodo_bringupConfig-version.cmake
+[0.559s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup/share/rbpodo_bringup/package.xml
+[0.560s] Invoked command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_bringup' returned '0': AMENT_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/lib:/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thornch/rbpodo_ros2_ws/build/rbpodo_bringup

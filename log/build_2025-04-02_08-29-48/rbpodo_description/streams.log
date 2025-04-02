@@ -1,0 +1,184 @@
+[0.005s] Invoking command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/thornch/rbpodo_ros2_ws/install/rbpodo_description
+[0.053s] -- The C compiler identification is GNU 11.4.0
+[0.087s] -- The CXX compiler identification is GNU 11.4.0
+[0.092s] -- Detecting C compiler ABI info
+[0.139s] -- Detecting C compiler ABI info - done
+[0.153s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.153s] -- Detecting C compile features
+[0.154s] -- Detecting C compile features - done
+[0.163s] -- Detecting CXX compiler ABI info
+[0.225s] -- Detecting CXX compiler ABI info - done
+[0.239s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.239s] -- Detecting CXX compile features
+[0.240s] -- Detecting CXX compile features - done
+[0.247s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.337s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.385s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.422s] -- Configuring done (0.4s)
+[0.424s] -- Generating done (0.0s)
+[0.424s] -- Build files have been written to: /home/thornch/rbpodo_ros2_ws/build/rbpodo_description
+[0.427s] Invoked command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thornch/rbpodo_ros2_ws/src/rbpodo_ros2/rbpodo_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/thornch/rbpodo_ros2_ws/install/rbpodo_description
+[0.428s] Invoking command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thornch/rbpodo_ros2_ws/build/rbpodo_description -- -j24 -l24
+[0.442s] Invoked command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thornch/rbpodo_ros2_ws/build/rbpodo_description -- -j24 -l24
+[0.445s] Invoking command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thornch/rbpodo_ros2_ws/build/rbpodo_description
+[0.447s] -- Install configuration: "Release"
+[0.447s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes
+[0.447s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb16_900e
+[0.447s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb16_900e/collision
+[0.447s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb16_900e/collision/link2.stl
+[0.449s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb16_900e/collision/link1.stl
+[0.450s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb16_900e/collision/link5.stl
+[0.450s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb16_900e/collision/link0.stl
+[0.452s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb16_900e/collision/link3.stl
+[0.453s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb16_900e/collision/link4.stl
+[0.454s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb16_900e/collision/link6.stl
+[0.455s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb16_900e/visual
+[0.455s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb16_900e/visual/link4.dae
+[0.456s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb16_900e/visual/link2.dae
+[0.458s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb16_900e/visual/link0.dae
+[0.460s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb16_900e/visual/link1.dae
+[0.462s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb16_900e/visual/link3.dae
+[0.464s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb16_900e/visual/link6.dae
+[0.466s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb16_900e/visual/link5.dae
+[0.467s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_730es_u
+[0.467s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_730es_u/collision
+[0.467s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_730es_u/collision/link2.stl
+[0.469s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_730es_u/collision/link1.stl
+[0.470s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_730es_u/collision/link5.stl
+[0.471s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_730es_u/collision/link0.stl
+[0.473s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_730es_u/collision/link3.stl
+[0.474s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_730es_u/collision/link4.stl
+[0.483s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_730es_u/collision/link6.stl
+[0.485s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_730es_u/visual
+[0.485s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_730es_u/visual/link4.dae
+[0.487s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_730es_u/visual/link2.dae
+[0.489s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_730es_u/visual/link0.dae
+[0.492s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_730es_u/visual/link1.dae
+[0.493s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_730es_u/visual/link3.dae
+[0.495s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_730es_u/visual/link6.dae
+[0.497s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_730es_u/visual/link5.dae
+[0.498s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_1200e_u
+[0.498s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_1200e_u/collision
+[0.498s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_1200e_u/collision/link2.stl
+[0.500s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_1200e_u/collision/link1.stl
+[0.501s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_1200e_u/collision/link5.stl
+[0.502s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_1200e_u/collision/link0.stl
+[0.505s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_1200e_u/collision/link3.stl
+[0.507s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_1200e_u/collision/link4.stl
+[0.508s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_1200e_u/collision/link6.stl
+[0.509s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_1200e_u/visual
+[0.509s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_1200e_u/visual/link4.dae
+[0.511s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_1200e_u/visual/link2.dae
+[0.513s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_1200e_u/visual/link0.dae
+[0.517s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_1200e_u/visual/link1.dae
+[0.518s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_1200e_u/visual/link3.dae
+[0.520s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_1200e_u/visual/link6.dae
+[0.523s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb3_1200e_u/visual/link5.dae
+[0.524s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb5_850e
+[0.524s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb5_850e/collision
+[0.524s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb5_850e/collision/link2.stl
+[0.526s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb5_850e/collision/link1.stl
+[0.527s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb5_850e/collision/link5.stl
+[0.528s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb5_850e/collision/link0.stl
+[0.530s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb5_850e/collision/link3.stl
+[0.532s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb5_850e/collision/link4.stl
+[0.533s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb5_850e/collision/link6.stl
+[0.534s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb5_850e/visual
+[0.534s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb5_850e/visual/link4.dae
+[0.536s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb5_850e/visual/link2.dae
+[0.543s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb5_850e/visual/link0.dae
+[0.547s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb5_850e/visual/link1.dae
+[0.550s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb5_850e/visual/link3.dae
+[0.556s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb5_850e/visual/link6.dae
+[0.557s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb5_850e/visual/link5.dae
+[0.560s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb20_1900es
+[0.560s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb20_1900es/collision
+[0.560s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb20_1900es/collision/link2.stl
+[0.562s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb20_1900es/collision/link1.stl
+[0.563s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb20_1900es/collision/link5.stl
+[0.568s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb20_1900es/collision/link0.stl
+[0.571s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb20_1900es/collision/link3.stl
+[0.572s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb20_1900es/collision/link4.stl
+[0.573s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb20_1900es/collision/link6.stl
+[0.575s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb20_1900es/visual
+[0.575s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb20_1900es/visual/link4.dae
+[0.576s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb20_1900es/visual/link2.dae
+[0.578s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb20_1900es/visual/link0.dae
+[0.582s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb20_1900es/visual/link1.dae
+[0.584s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb20_1900es/visual/link3.dae
+[0.585s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb20_1900es/visual/link6.dae
+[0.588s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb20_1900es/visual/link5.dae
+[0.589s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb10_1300e
+[0.589s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb10_1300e/collision
+[0.589s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb10_1300e/collision/link2.stl
+[0.590s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb10_1300e/collision/link1.stl
+[0.591s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb10_1300e/collision/link5.stl
+[0.592s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb10_1300e/collision/link0.stl
+[0.593s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb10_1300e/collision/link3.stl
+[0.594s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb10_1300e/collision/link4.stl
+[0.594s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb10_1300e/collision/link6.stl
+[0.595s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb10_1300e/visual
+[0.595s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb10_1300e/visual/link4.dae
+[0.596s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb10_1300e/visual/link2.dae
+[0.598s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb10_1300e/visual/link0.dae
+[0.599s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb10_1300e/visual/link1.dae
+[0.600s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb10_1300e/visual/link3.dae
+[0.602s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb10_1300e/visual/link6.dae
+[0.604s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/meshes/rb10_1300e/visual/link5.dae
+[0.604s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots
+[0.604s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb16_900e.urdf
+[0.605s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb5_850e.urdf.xacro
+[0.605s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb16_900e
+[0.605s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb16_900e/link.yaml
+[0.605s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb16_900e/joint.yaml
+[0.605s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb10_1300e.urdf.xacro
+[0.605s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb10_1300e.urdf
+[0.605s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb3_730es_u
+[0.605s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb3_730es_u/link.yaml
+[0.605s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb3_730es_u/joint.yaml
+[0.605s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb3_730es_u.urdf
+[0.606s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb3_1200e_u
+[0.606s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb3_1200e_u/README.md
+[0.606s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb3_1200e_u/link.yaml
+[0.606s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb3_1200e_u/joint.yaml
+[0.606s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb20_1900es.urdf.xacro
+[0.606s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb16_900e.urdf.xacro
+[0.606s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb3_730es_u.urdf.xacro
+[0.606s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb5_850e
+[0.606s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb5_850e/kinematics.pdf
+[0.607s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb5_850e/link.yaml
+[0.607s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb5_850e/joint.yaml
+[0.607s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb3_1200e_u.urdf.xacro
+[0.607s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb20_1900es
+[0.607s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb20_1900es/link.yaml
+[0.607s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb20_1900es/joint.yaml
+[0.607s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb_6dof.ros2_control.urdf
+[0.607s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb20_1900es.urdf
+[0.608s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb5_850e.urdf
+[0.608s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb3_1200e_u.urdf
+[0.608s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb_6dof.urdf
+[0.608s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb_6dof.xacro
+[0.608s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb_6dof.ros2_control.xacro
+[0.608s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb10_1300e
+[0.608s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb10_1300e/link.yaml
+[0.608s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/robots/rb10_1300e/joint.yaml
+[0.609s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/launch
+[0.609s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/launch/display.launch.py
+[0.609s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/rviz
+[0.609s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/rviz/urdf.rviz
+[0.609s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/ament_index/resource_index/package_run_dependencies/rbpodo_description
+[0.609s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/ament_index/resource_index/parent_prefix_path/rbpodo_description
+[0.609s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/environment/ament_prefix_path.sh
+[0.609s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/environment/ament_prefix_path.dsv
+[0.609s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/environment/path.sh
+[0.609s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/environment/path.dsv
+[0.609s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/local_setup.bash
+[0.609s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/local_setup.sh
+[0.609s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/local_setup.zsh
+[0.609s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/local_setup.dsv
+[0.609s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/package.dsv
+[0.610s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/ament_index/resource_index/packages/rbpodo_description
+[0.610s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/cmake/rbpodo_descriptionConfig.cmake
+[0.610s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/cmake/rbpodo_descriptionConfig-version.cmake
+[0.610s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/package.xml
+[0.611s] Invoked command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thornch/rbpodo_ros2_ws/build/rbpodo_description
