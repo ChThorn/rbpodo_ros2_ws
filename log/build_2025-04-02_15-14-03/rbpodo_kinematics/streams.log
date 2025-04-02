@@ -1,0 +1,94 @@
+[0.006s] Invoking command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_kinematics': CMAKE_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/home/thornch/rbpodo_ros2_ws/install/rbpodo_controller:/home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup:/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/lib:/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/thornch/rbpodo_ros2_ws/src/rbpodo_kinematics -DCMAKE_INSTALL_PREFIX=/home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics
+[0.008s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.008s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.008s]   CMake.
+[0.008s] 
+[0.008s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.008s]   to tell CMake that the project requires at least <min> but has been updated
+[0.009s]   to work with policies introduced by <max> or earlier.
+[0.009s] 
+[0.009s] [0m
+[0.040s] -- The C compiler identification is GNU 11.4.0
+[0.075s] -- The CXX compiler identification is GNU 11.4.0
+[0.081s] -- Detecting C compiler ABI info
+[0.164s] -- Detecting C compiler ABI info - done
+[0.182s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.183s] -- Detecting C compile features
+[0.183s] -- Detecting C compile features - done
+[0.199s] -- Detecting CXX compiler ABI info
+[0.321s] -- Detecting CXX compiler ABI info - done
+[0.337s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.337s] -- Detecting CXX compile features
+[0.337s] -- Detecting CXX compile features - done
+[0.342s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.430s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.487s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.512s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.514s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.519s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.526s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.535s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.561s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.562s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.615s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[0.634s] -- Found FastRTPS: /opt/ros/humble/include
+[0.659s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.664s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.740s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.743s] -- Found Threads: TRUE
+[0.780s] -- Found rbpodo_msgs: 0.0.0 (/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/share/rbpodo_msgs/cmake)
+[0.808s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.817s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.844s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[0.851s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.903s] -- Found rbpodo_description: 0.0.1 (/home/thornch/rbpodo_ros2_ws/install/rbpodo_description/share/rbpodo_description/cmake)
+[0.951s] -- Configuring done (0.9s)
+[0.960s] -- Generating done (0.0s)
+[0.962s] -- Build files have been written to: /home/thornch/rbpodo_ros2_ws/build/rbpodo_kinematics
+[0.969s] Invoked command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_kinematics' returned '0': CMAKE_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/home/thornch/rbpodo_ros2_ws/install/rbpodo_controller:/home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup:/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/lib:/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/thornch/rbpodo_ros2_ws/src/rbpodo_kinematics -DCMAKE_INSTALL_PREFIX=/home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics
+[0.970s] Invoking command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_kinematics': CMAKE_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/home/thornch/rbpodo_ros2_ws/install/rbpodo_controller:/home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup:/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/lib:/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/thornch/rbpodo_ros2_ws/build/rbpodo_kinematics -- -j24 -l24
+[0.999s] [ 16%] [32mBuilding CXX object CMakeFiles/robot_kinematics.dir/src/robot_kinematics.cpp.o[0m
+[3.779s] [ 33%] [32m[1mLinking CXX static library librobot_kinematics.a[0m
+[3.850s] [ 33%] Built target robot_kinematics
+[3.859s] [ 50%] [32mBuilding CXX object CMakeFiles/forward_kinematics.dir/src/forward_kinematics.cpp.o[0m
+[3.859s] [ 66%] [32mBuilding CXX object CMakeFiles/inverse_kinematics.dir/src/inverse_kinematics.cpp.o[0m
+[8.555s] [ 83%] [32m[1mLinking CXX executable forward_kinematics[0m
+[8.876s] [ 83%] Built target forward_kinematics
+[9.935s] [100%] [32m[1mLinking CXX executable inverse_kinematics[0m
+[10.285s] [100%] Built target inverse_kinematics
+[10.295s] Invoked command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_kinematics' returned '0': CMAKE_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/home/thornch/rbpodo_ros2_ws/install/rbpodo_controller:/home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup:/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/lib:/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/thornch/rbpodo_ros2_ws/build/rbpodo_kinematics -- -j24 -l24
+[10.296s] Invoking command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_kinematics': CMAKE_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/home/thornch/rbpodo_ros2_ws/install/rbpodo_controller:/home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup:/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/lib:/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/thornch/rbpodo_ros2_ws/build/rbpodo_kinematics
+[10.299s] -- Install configuration: ""
+[10.299s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/lib/librobot_kinematics.a
+[10.302s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/lib/rbpodo_kinematics/forward_kinematics
+[10.305s] -- Set non-toolchain portion of runtime path of "/home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/lib/rbpodo_kinematics/forward_kinematics" to ""
+[10.305s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/lib/rbpodo_kinematics/inverse_kinematics
+[10.309s] -- Set non-toolchain portion of runtime path of "/home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/lib/rbpodo_kinematics/inverse_kinematics" to ""
+[10.310s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/include
+[10.310s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/include/rbpodo_kinematics
+[10.310s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/include/rbpodo_kinematics/robot_kinematics.hpp
+[10.310s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/rbpodo_kinematics/launch
+[10.310s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/rbpodo_kinematics/launch/kinematics.launch.py
+[10.310s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/rbpodo_kinematics/config
+[10.311s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/rbpodo_kinematics/config/dh_parameters.yaml
+[10.311s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/rbpodo_kinematics/environment/library_path.sh
+[10.311s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/rbpodo_kinematics/environment/library_path.dsv
+[10.311s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/ament_index/resource_index/package_run_dependencies/rbpodo_kinematics
+[10.311s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/ament_index/resource_index/parent_prefix_path/rbpodo_kinematics
+[10.311s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/rbpodo_kinematics/environment/ament_prefix_path.sh
+[10.311s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/rbpodo_kinematics/environment/ament_prefix_path.dsv
+[10.311s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/rbpodo_kinematics/environment/path.sh
+[10.311s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/rbpodo_kinematics/environment/path.dsv
+[10.311s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/rbpodo_kinematics/local_setup.bash
+[10.311s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/rbpodo_kinematics/local_setup.sh
+[10.311s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/rbpodo_kinematics/local_setup.zsh
+[10.311s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/rbpodo_kinematics/local_setup.dsv
+[10.311s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/rbpodo_kinematics/package.dsv
+[10.311s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/ament_index/resource_index/packages/rbpodo_kinematics
+[10.311s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/rbpodo_kinematics/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.311s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/rbpodo_kinematics/cmake/ament_cmake_export_libraries-extras.cmake
+[10.311s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/rbpodo_kinematics/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.311s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/rbpodo_kinematics/cmake/rbpodo_kinematicsConfig.cmake
+[10.311s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/rbpodo_kinematics/cmake/rbpodo_kinematicsConfig-version.cmake
+[10.312s] -- Installing: /home/thornch/rbpodo_ros2_ws/install/rbpodo_kinematics/share/rbpodo_kinematics/package.xml
+[10.312s] Invoked command in '/home/thornch/rbpodo_ros2_ws/build/rbpodo_kinematics' returned '0': CMAKE_PREFIX_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs:/home/thornch/rbpodo_ros2_ws/install/rbpodo_description:/home/thornch/rbpodo_ros2_ws/install/rbpodo_controller:/home/thornch/rbpodo_ros2_ws/install/rbpodo_bringup:/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware:/home/thornch/rbpodo_ros2_ws/install/rb3_730es_u_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/home/thornch/rbpodo_ros2_ws/install/rbpodo_msgs/lib:/home/thornch/rbpodo_ros2_ws/install/rbpodo_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/thornch/rbpodo_ros2_ws/build/rbpodo_kinematics

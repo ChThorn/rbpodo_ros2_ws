@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-51b0f2490ece7a18682b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rbpodo_kinematics",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "forward_kinematics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-forward_kinematics-b7ac3f55af463f407851.json",
+					"name" : "forward_kinematics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "inverse_kinematics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-inverse_kinematics-e2b03064029a862a238f.json",
+					"name" : "inverse_kinematics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_planner-a32a16f47a652db1a7ec.json",
+					"name" : "motion_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rbpodo_kinematics_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rbpodo_kinematics_uninstall-e72ea4cd31a5c22f20b1.json",
+					"name" : "rbpodo_kinematics_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_kinematics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_kinematics-63d3df42403de3212570.json",
+					"name" : "robot_kinematics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-40b0bef553da4dd7ca81.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/thornch/rbpodo_ros2_ws/build/rbpodo_kinematics",
+		"source" : "/home/thornch/rbpodo_ros2_ws/src/rbpodo_kinematics"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,39 @@
+/**:
+  ros__parameters:
+    num_joints: 6
+    base_frame: "base_link"
+    ee_frame: "tool0"
+    
+    # DH parameters - Update these with actual values from your robot!
+    # These are placeholders and MUST be updated with real values
+    dh:
+      joint1:
+        a: 0.0
+        alpha: -1.5708  # -90 degrees
+        d: 0.1625
+        theta_offset: 0.0
+      joint2:
+        a: 0.425
+        alpha: 0.0
+        d: 0.0
+        theta_offset: 0.0
+      joint3:
+        a: 0.39225
+        alpha: 0.0
+        d: 0.0
+        theta_offset: 0.0
+      joint4:
+        a: 0.0
+        alpha: -1.5708  # -90 degrees
+        d: 0.1333
+        theta_offset: 0.0
+      joint5:
+        a: 0.0
+        alpha: 1.5708   # 90 degrees
+        d: 0.0997
+        theta_offset: 0.0
+      joint6:
+        a: 0.0
+        alpha: 0.0
+        d: 0.0996
+        theta_offset: 0.0
